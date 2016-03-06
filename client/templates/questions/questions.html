@@ -1,5 +1,6 @@
 <template name="questions">
 	<ul class="accordion" data-accordion role="tablist">
+		<!-- Each question will be shown here -->
 		{{#each questions}}
 			<li class="accordion-navigation">
 				<a href="#panel-{{i}}" role="tab" id="panel-{{i}}-heading" aria-controls="panel-{{i}}">{{question}}</a>
